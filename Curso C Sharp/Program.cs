@@ -11,7 +11,7 @@ namespace Curso_C_Sharp
 
         static void Main(string[] args)
         {
-            Aula3.MetodoDaAula();
+            Aula5.MetodoDaAula();
 
         }
 
