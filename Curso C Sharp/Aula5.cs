@@ -36,6 +36,50 @@ namespace Curso_C_Sharp
             Prod = D * E;
             Console.WriteLine("PRODUTO = " + Prod);
 
+            Console.WriteLine("Resolução exercicio 1019 URI ONLINE JUDGE");
+            Console.WriteLine("Conversão de tempo");
+
+            int N, horas, resto, minutos, segundos;
+            N = int.Parse(Console.ReadLine());
+            horas = N / 3600;
+            resto = N % 3600;
+            minutos = resto / 60;
+            segundos = resto % 60;
+            Console.WriteLine("horas" + horas + ":" + minutos + "minutos" + segundos + "segundos");
+
+            Console.WriteLine("Resolução exercicio 1007 URI ONLINE JUDGE");
+            Console.WriteLine("Diferença");
+
+            int F, G, H, I, DIF;
+            F = int.Parse(Console.ReadLine());
+            G = int.Parse(Console.ReadLine());
+            H = int.Parse(Console.ReadLine());
+            I = int.Parse(Console.ReadLine());
+            DIF = F * G - H * I;
+            Console.WriteLine("DIFERENÇA = " + DIF);
+            Console.WriteLine("Resolução exercicio 1008 URI ONLINE JUDGE");
+            Console.WriteLine("Cálculo de salário por hora trabalhada");
+
+
+            int Numero;
+            int Horas;
+            double Salario;
+            double ValorHora;
+
+            Console.WriteLine("Digite o número");
+            Numero = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o número de horas");
+            Horas = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite o valor da hora trabalhada");
+            ValorHora = double.Parse(Console.ReadLine());
+
+            Salario = ValorHora * Horas;
+
+            Console.WriteLine("NUMBER" + Numero);
+            Console.WriteLine("SALARY = U$" + Salario.ToString("F2", CultureInfo.InvariantCulture));
+
 
         }
 
