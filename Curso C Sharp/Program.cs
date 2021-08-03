@@ -3,7 +3,7 @@ using System.Globalization;
 
 namespace Curso_C_Sharp
 {
-    class Program
+    static class Program
     {
 
 
@@ -11,14 +11,17 @@ namespace Curso_C_Sharp
 
         static void Main(string[] args)
         {
-            Aula5.MetodoDaAula();
 
-                 }
+            Aula6.MetodoDaAula();
+
+
+
+        }
 
 
 
     }
-
-
-
 }
+
+
+
