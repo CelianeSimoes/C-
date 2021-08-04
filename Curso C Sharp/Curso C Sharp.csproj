@@ -6,4 +6,11 @@
     <RootNamespace>Curso_C_Sharp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Aula5 - Cópia.cs" />
+    <Compile Remove="Aula6 - Cópia.cs" />
+    
+  
+  </ItemGroup>
+
 </Project>
